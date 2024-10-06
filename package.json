@@ -1,0 +1,25 @@
+{
+  "name": "task-queue-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "cluster": "^0.7.7",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.1",
+    "express-slow-down": "^2.0.3",
+    "fs": "^0.0.1-security",
+    "ioredis": "^5.4.1",
+    "os": "^0.1.2",
+    "pm2": "^5.4.2",
+    "redis": "^4.7.0"
+  }
+}
